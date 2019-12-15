@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Ayu Dark",
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Hasklig"
+}
