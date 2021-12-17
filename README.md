@@ -11,7 +11,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 # Brewfile
 ```sh
 # clone this directory and then install brewfile
-git clone git@github.com:brycehill/dotfiles.git
+git clone git@github.com:itsJordanDoes/dotfiles.git
 cd dotfiles
 brew bundle install ./Brewfile
 ```
