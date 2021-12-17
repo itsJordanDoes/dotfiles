@@ -7,11 +7,16 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+# GH CLI
+```sh
+brew install gh
+gh auth login
+```
 
 # Brewfile
 ```sh
 # clone this directory and then install brewfile
-git clone git@github.com:itsJordanDoes/dotfiles.git
+gh repo clone itsJordanDoes/dotfiles
 cd dotfiles
 brew bundle install ./Brewfile
 ```
