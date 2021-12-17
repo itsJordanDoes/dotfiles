@@ -43,7 +43,7 @@ ln -s purity.zsh ~/.oh-my-zsh/themes/purity.zsh-theme
 
 # Neovim
 ```sh
-pip install neovim
+brew install neovim
 #  Install vim-plug
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
