@@ -48,6 +48,7 @@ cask "font-hasklig"
 cask "font-hasklig-nerd-font"
 cask "font-hasklig-nerd-font-mono"
 cask "google-chrome"
+cask "google-drive"
 cask "visual-studio-code"
 cask "karabiner"
 cask "karabiner-elements"
@@ -55,7 +56,6 @@ cask "moom"
 cask "ngrok"
 cask "sequel-pro"
 cask "slack"
-cask "discord"
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Moom", id: 419330170
