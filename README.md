@@ -43,7 +43,7 @@ ln -s purity.zsh ~/.oh-my-zsh/themes/purity.zsh-theme
 
 # Neovim
 ```sh
-pip install neovim
+brew install neovim
 #  Install vim-plug
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -58,7 +58,9 @@ ln -s dotfiles/tmuxline ~/.tmux/tmuxline
 
 
 # Node / nvm / npm
-
+```sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+```
 
 # Mac Stuff
 ```sh
