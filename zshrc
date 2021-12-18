@@ -21,7 +21,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 DISABLE_UPDATE_PROMPT="true"
 UPDATE_ZSH_DAYS=30
 
-plugins=(git colored-man-pages osx)
+plugins=(git colored-man-pages macos)
 
 # Setup BrewFile - Do this on new systems? Disable because slow.
 # if [ -f $(brew --prefix)/etc/brew-wrap ];then
@@ -60,3 +60,4 @@ eval "$(rbenv init -)"
 
 # Added by n-install (see http://git.io/n-install-repo).
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
+
